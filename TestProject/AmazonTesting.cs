@@ -43,12 +43,15 @@ namespace AmazonTestingSelenium
             Thread.Sleep(2000);
             var element = driver.FindElement(By.XPath("//div[@id = 'nav-tools']//span[@class = 'nav-line-1']"));
 
-            var actionObject = new Actions(driver);
-            actionObject.MoveToElement(element).Perform();
+            var mouseAction = new Actions(driver);
+            mouseAction.MoveToElement(element).Perform();
             Thread.Sleep(5000);
             var yourAccount = driver.FindElement(By.XPath("//div[@id = 'nav-flyout-yourAccount']//*[@href = '/gp/css/homepage.html/ref=nav_youraccount_ya']"));
             //actionObject.MoveToElement(yourAccount).Click();
-            actionObject.MoveToElement(yourAccount).Click().Perform();
+            mouseAction.MoveToElement(yourAccount).Click().Perform();
+
+            //Right Click on mouse and select the second option.
+            mouseAction.ContextClick(yourAccount).SendKeys(Keys.ArrowDown).SendKeys(Keys.ArrowDown).SendKeys(Keys.Return).Build().Perform();
         }
     }
 }

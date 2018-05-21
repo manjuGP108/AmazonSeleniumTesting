@@ -20,3 +20,14 @@ C:\Users\KHN2\Desktop\AmazonTestingSelenium\TestProject\bin\Debug\Microsoft.Visu
 C:\Users\KHN2\Desktop\AmazonTestingSelenium\TestProject\obj\Debug\AmazonTestingSeleniumProject.csprojResolveAssemblyReference.cache
 C:\Users\KHN2\Desktop\AmazonTestingSelenium\TestProject\obj\Debug\UnitTestProject1.dll
 C:\Users\KHN2\Desktop\AmazonTestingSelenium\TestProject\obj\Debug\UnitTestProject1.pdb
+C:\GIT clone repository\AmazonTesting\TestProject\bin\Debug\UnitTestProject1.dll
+C:\GIT clone repository\AmazonTesting\TestProject\bin\Debug\UnitTestProject1.pdb
+C:\GIT clone repository\AmazonTesting\TestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\GIT clone repository\AmazonTesting\TestProject\bin\Debug\WebDriver.dll
+C:\GIT clone repository\AmazonTesting\TestProject\bin\Debug\WebDriver.Support.dll
+C:\GIT clone repository\AmazonTesting\TestProject\bin\Debug\WebDriver.xml
+C:\GIT clone repository\AmazonTesting\TestProject\bin\Debug\WebDriver.Support.xml
+C:\GIT clone repository\AmazonTesting\TestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\GIT clone repository\AmazonTesting\TestProject\obj\Debug\AmazonTestingSeleniumProject.csprojResolveAssemblyReference.cache
+C:\GIT clone repository\AmazonTesting\TestProject\obj\Debug\UnitTestProject1.dll
+C:\GIT clone repository\AmazonTesting\TestProject\obj\Debug\UnitTestProject1.pdb

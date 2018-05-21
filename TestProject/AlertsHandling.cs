@@ -20,7 +20,7 @@ namespace AmazonTestingSelenium
             ////This step produce an alert on screen
             driver.Manage().Window.Maximize();
             //Thread.Sleep(2000);
-            //driver.FindElement(By.XPath("//*[@id='content']/p[4]/button")).Click();
+            driver.FindElement(By.XPath("//*[@id='content']/p[4]/button")).Click();
 
             //// Get the alert window text // Alerts are implemented in the IAlert interface
             ////driver.SwitchTo().Alert();
@@ -113,8 +113,6 @@ namespace AmazonTestingSelenium
             wait.Until(ExpectedConditions.AlertIsPresent());
             var alertmessage = driver.SwitchTo().Alert().Text;
             driver.SwitchTo().Alert().Accept();
-
-
         }
     }
 }
