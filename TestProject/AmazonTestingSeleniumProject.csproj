@@ -69,6 +69,7 @@
     <Compile Include="HDFC.cs" />
     <Compile Include="IFrame.cs" />
     <Compile Include="Informations.cs" />
+    <Compile Include="JavaScriptExecutor.cs" />
     <Compile Include="PracticePage.cs" />
     <Compile Include="TimeSheetSubmission.cs" />
     <Compile Include="UnitTest1.cs" />
